@@ -5,6 +5,43 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GRAVITT — Streetwear & Tech</title>
 <meta name="description" content="GRAVITT IND — Ropa urbana, sneakers Jordan, AirPods, relojes y accesorios tech. Estética de calle. @gravitt.ind">
+<link rel="canonical" href="https://www.gravitt.store/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.gravitt.store/">
+<meta property="og:title" content="GRAVITT — Streetwear & Tech">
+<meta property="og:description" content="Ropa urbana, sneakers Jordan, AirPods, cargadores y relojes. Estética de calle para hombres y mujeres de 16 a 33. Envíos a todo el país.">
+<meta property="og:image" content="https://www.gravitt.store/assets/gravitt/logogravitt.png">
+<meta property="og:locale" content="es_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GRAVITT — Streetwear & Tech">
+<meta name="twitter:description" content="Ropa urbana, sneakers Jordan, AirPods y accesorios tech. @gravitt.ind">
+<meta name="twitter:image" content="https://www.gravitt.store/assets/gravitt/logogravitt.png">
+<meta name="theme-color" content="#0a0a0f">
+<link rel="icon" type="image/png" href="assets/gravitt/logogravitt.png">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Store",
+  "name":"GRAVITT IND",
+  "url":"https://www.gravitt.store",
+  "logo":"https://www.gravitt.store/assets/gravitt/logogravitt.png",
+  "description":"Tienda de ropa urbana, sneakers Jordan, auriculares y cargadores Apple. Estética streetwear para hombres y mujeres de 16 a 33 años.",
+  "telephone":"+5492226523895",
+  "sameAs":["https://www.instagram.com/gravitt.ind/"],
+  "contactPoint":{
+    "@type":"ContactPoint",
+    "telephone":"+5492226523895",
+    "contactType":"sales",
+    "availableLanguage":"Spanish"
+  },
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://www.instagram.com/gravitt.ind/",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -39,7 +76,7 @@ section{position:relative;padding:100px 6vw}
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;
   padding:16px 6vw;transition:.35s;border-bottom:1px solid transparent}
 nav.scrolled{background:rgba(10,10,15,.82);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-color:var(--line)}
-.nav-logo{height:54px}
+.nav-logo{height:36px}
 .nav-logo img{height:100%;width:auto;filter:brightness(1.1)}
 .nav-links{display:flex;gap:28px;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase}
 .nav-links a{opacity:.7;transition:.25s}
@@ -168,32 +205,7 @@ nav.scrolled{background:rgba(10,10,15,.82);backdrop-filter:blur(16px);-webkit-ba
 
 /* ========== FOOTER ========== */
 footer{padding:32px 6vw;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;color:var(--muted);font-size:.8rem}
-footer .fl img{height:40px;filter:brightness(1.1)}
-
-/* ========== TIENDA / SHOP ========== */
-.shop{background:var(--steel)}
-.shop h2{font-size:clamp(2.4rem,5vw,4rem);margin-bottom:10px}
-.shop .subtitle{color:var(--muted);margin-bottom:14px;font-size:1.05rem;max-width:55ch}
-.shop-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(227,25,55,.1);border:1px solid rgba(227,25,55,.3);padding:8px 18px;border-radius:999px;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:36px}
-.shop-badge::before{content:'';width:6px;height:6px;background:var(--red);border-radius:50%;animation:pulse 2s infinite}
-.shop-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.shop-card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:.35s;display:flex;flex-direction:column}
-.shop-card:hover{transform:translateY(-6px);border-color:var(--red);box-shadow:0 20px 60px rgba(227,25,55,.14)}
-.shop-card-img{aspect-ratio:4/5;overflow:hidden;position:relative}
-.shop-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
-.shop-card:hover .shop-card-img img{transform:scale(1.07)}
-.shop-card-body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
-.shop-card-tag{font-size:.68rem;letter-spacing:.3em;text-transform:uppercase;color:var(--red);margin-bottom:6px}
-.shop-card-name{font-family:var(--display);font-size:1.5rem;text-transform:uppercase;line-height:.95;margin-bottom:16px;flex:1}
-.shop-cta{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;padding:13px 0;background:var(--red);color:#fff;border-radius:10px;font-weight:700;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;transition:.25s;text-decoration:none;box-shadow:0 6px 24px rgba(227,25,55,.3)}
-.shop-cta:hover{background:#c71530;box-shadow:0 10px 36px rgba(227,25,55,.45)}
-.shop-cta svg{flex-shrink:0}
-
-/* ========== FLOATING WHATSAPP ========== */
-.wa-float{position:fixed;bottom:28px;right:28px;z-index:200;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(37,211,102,.45);transition:.3s;animation:waPulse 3s ease infinite}
-.wa-float:hover{transform:scale(1.12);box-shadow:0 12px 44px rgba(37,211,102,.6)}
-@keyframes waPulse{0%,100%{box-shadow:0 8px 30px rgba(37,211,102,.45)}50%{box-shadow:0 8px 44px rgba(37,211,102,.7)}}
-.wa-float svg{width:30px;height:30px}
+footer .fl img{height:28px;filter:brightness(1.1)}
 
 /* ========== ANIMATIONS ========== */
 .reveal{opacity:0;transform:translateY(30px);transition:opacity .8s cubic-bezier(.22,.61,.36,1),transform .8s cubic-bezier(.22,.61,.36,1)}
@@ -204,7 +216,6 @@ footer .fl img{height:40px;filter:brightness(1.1)}
 
 /* ========== RESPONSIVE ========== */
 @media(max-width:980px){
-  .shop-grid{grid-template-columns:repeat(2,1fr)}
   .cats{grid-template-columns:1fr}
   .cat{min-height:50vh;border-right:none;border-bottom:1px solid var(--line)}
   .cat p,.cat .cat-link{opacity:1;transform:none}
@@ -220,8 +231,6 @@ footer .fl img{height:40px;filter:brightness(1.1)}
   .nav-cta{display:none}
 }
 @media(max-width:520px){
-  .shop-grid{grid-template-columns:1fr;gap:14px}
-  .wa-float{bottom:20px;right:18px;width:52px;height:52px}
   section{padding:72px 5vw}
   .ig-top{flex-direction:column;text-align:center}
   .ig-stats{justify-content:center}
@@ -238,7 +247,6 @@ footer .fl img{height:40px;filter:brightness(1.1)}
   <div class="nav-links" id="navLinks">
     <a href="#streetwear">Streetwear</a>
     <a href="#tech">Tech</a>
-    <a href="#tienda">Tienda</a>
     <a href="#galeria">Galería</a>
     <a href="#contacto">Contacto</a>
   </div>
@@ -314,24 +322,6 @@ footer .fl img{height:40px;filter:brightness(1.1)}
   </div>
 </section>
 
-<!-- ============ TIENDA ============ -->
-<section class="shop" id="tienda">
-  <div class="reveal">
-    <div class="eyebrow">Tienda</div>
-    <h2>Shop <span style="color:var(--red)">Gravitt</span></h2>
-    <p class="subtitle">Lo que ves, lo conseguimos para vos. Escribinos y te lo gestionamos.</p>
-    <div class="shop-badge">Pedido personalizado · Envíos a todo el país</div>
-  </div>
-  <div class="tabs reveal" id="shopTabs">
-    <button class="tab active" data-sfilter="all">Todo</button>
-    <button class="tab" data-sfilter="remera">Remeras</button>
-    <button class="tab" data-sfilter="pantalon">Pantalones</button>
-    <button class="tab" data-sfilter="zapas">Zapatillas</button>
-    <button class="tab" data-sfilter="tech">Tech</button>
-  </div>
-  <div class="shop-grid stagger" id="shopGrid"></div>
-</section>
-
 <!-- ============ GALLERY ============ -->
 <section class="gallery" id="galeria">
   <div class="reveal">
@@ -395,13 +385,6 @@ footer .fl img{height:40px;filter:brightness(1.1)}
   </div>
 </section>
 
-<!-- FLOATING WA -->
-<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
-  <svg viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-  </svg>
-</a>
-
 <footer>
   <div class="fl"><img src="assets/gravitt/logogravitt.png" alt="GRAVITT"></div>
   <div>© <span id="yr"></span> GRAVITT IND</div>
@@ -425,55 +408,6 @@ const C = {
   whatsapp: '5492226523895',
   waMsg: 'Hola GRAVITT! Quiero consultar 🙌',
 };
-
-/* ============================================
-   TIENDA — 39 productos con CTA a WhatsApp
-   ============================================ */
-const SHOP_PRODUCTS = [
-  /* Tech / Accesorios */
-  {img:'tiendagravitt/airpods2.jpeg',              name:'AirPods 2',             cat:'tech',     q:'Hola GRAVITT! Me interesan los AirPods 2 🎧 ¿Podés darme más info?'},
-  {img:'tiendagravitt/airpodspro2.jpeg',           name:'AirPods Pro 2',         cat:'tech',     q:'Hola GRAVITT! Me interesan los AirPods Pro 2 🎧 ¿Podés darme más info?'},
-  {img:'tiendagravitt/auricularesmax2.jpeg',       name:'AirPods Max',           cat:'tech',     q:'Hola GRAVITT! Me interesan los AirPods Max 🎧 ¿Podés darme más info?'},
-  {img:'tiendagravitt/auriculariphonemaxgris.jpeg',name:'AirPods Max Gris',      cat:'tech',     q:'Hola GRAVITT! Me interesan los AirPods Max Gris 🎧 ¿Podés darme más info?'},
-  {img:'tiendagravitt/cargadorapple.jpeg',         name:'Cargador Apple',        cat:'tech',     q:'Hola GRAVITT! Me interesa el Cargador Apple 🔌 ¿Podés darme más info?'},
-  {img:'tiendagravitt/fundasiphone.jpeg',          name:'Fundas iPhone',         cat:'tech',     q:'Hola GRAVITT! Me interesan las Fundas iPhone 📱 ¿Podés darme más info?'},
-  {img:'tiendagravitt/parlantebluetohhJBL.jpeg',   name:'Parlante JBL',          cat:'tech',     q:'Hola GRAVITT! Me interesa el Parlante JBL 🔊 ¿Podés darme más info?'},
-  {img:'tiendagravitt/parlantesjblbluetooh.jpeg',  name:'Parlantes JBL',         cat:'tech',     q:'Hola GRAVITT! Me interesan los Parlantes JBL 🔊 ¿Podés darme más info?'},
-  /* Remeras */
-  {img:'tiendagravitt/remeraamiri.jpeg',           name:'Remera Amiri',          cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Amiri 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remeraarmani.jpeg',          name:'Remera Armani',         cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Armani 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remeracalvinklein.jpeg',     name:'Remera Calvin Klein',   cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Calvin Klein 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remeradiesel.jpeg',          name:'Remera Diesel',         cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Diesel 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remerajordan23.jpeg',        name:'Remera Jordan 23',      cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Jordan 23 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remerasboss.jpeg',           name:'Remera Boss',           cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Boss 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remerasjordans.jpeg',        name:'Remera Jordan',         cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Jordan 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remerasvarias.jpeg',         name:'Remeras Varias',        cat:'remera',   q:'Hola GRAVITT! Me interesan las Remeras 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remraguess.jpeg',            name:'Remera Guess',          cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Guess 👕 ¿Podés darme más info?'},
-  {img:'tiendagravitt/remrakors.jpeg',             name:'Remera Michael Kors',   cat:'remera',   q:'Hola GRAVITT! Me interesa la Remera Michael Kors 👕 ¿Podés darme más info?'},
-  /* Pantalones */
-  {img:'tiendagravitt/joginnikenegro.jpeg',        name:'Jogging Nike Negro',    cat:'pantalon', q:'Hola GRAVITT! Me interesa el Jogging Nike Negro 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/jordanpantalongris.jpeg',    name:'Pantalón Jordan Gris',  cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Jordan Gris 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonadidas.jpeg',        name:'Pantalón Adidas',       cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Adidas 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonadidasnegro.jpeg',   name:'Pantalón Adidas Negro', cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Adidas Negro 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonjogingrisnike.jpeg', name:'Jogging Gris Nike',     cat:'pantalon', q:'Hola GRAVITT! Me interesa el Jogging Gris Nike 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonjordan.jpeg',        name:'Pantalón Jordan',       cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Jordan 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonjordangris.jpeg',    name:'Pantalón Jordan Gris',  cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Jordan Gris 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonnegrojordan.jpeg',   name:'Pantalón Negro Jordan', cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Negro Jordan 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonnegronike.jpeg',     name:'Pantalón Negro Nike',   cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Negro Nike 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonnike.jpeg',          name:'Pantalón Nike',         cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Nike 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonnikeverde.jpeg',     name:'Pantalón Nike Verde',   cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Nike Verde 👖 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pantalonrunnike.jpeg',       name:'Pantalón Running Nike', cat:'pantalon', q:'Hola GRAVITT! Me interesa el Pantalón Running Nike 👖 ¿Podés darme más info?'},
-  /* Zapatillas */
-  {img:'tiendagravitt/nikeblancaszapas.jpeg',      name:'Nike Blancas',          cat:'zapas',    q:'Hola GRAVITT! Me interesan las Nike Blancas 👟 ¿Podés darme más info?'},
-  {img:'tiendagravitt/pumaazul.jpeg',              name:'Puma Azul',             cat:'zapas',    q:'Hola GRAVITT! Me interesan las Puma Azul 👟 ¿Podés darme más info?'},
-  {img:'tiendagravitt/vansnegraszapas.jpeg',       name:'Vans Negras',           cat:'zapas',    q:'Hola GRAVITT! Me interesan las Vans Negras 👟 ¿Podés darme más info?'},
-  {img:'tiendagravitt/zapasadidas.jpeg',           name:'Adidas',                cat:'zapas',    q:'Hola GRAVITT! Me interesan las Adidas 👟 ¿Podés darme más info?'},
-  {img:'tiendagravitt/zapasnikeblanca.jpeg',       name:'Nike Blanca',           cat:'zapas',    q:'Hola GRAVITT! Me interesan las Nike Blancas 👟 ¿Podés darme más info?'},
-  {img:'tiendagravitt/zapasnikepipaazul.jpeg',     name:'Nike Pipa Azul',        cat:'zapas',    q:'Hola GRAVITT! Me interesan las Nike Pipa Azul 👟 ¿Podés darme más info?'},
-  {img:'tiendagravitt/zapaspumanegra.jpeg',        name:'Puma Negra',            cat:'zapas',    q:'Hola GRAVITT! Me interesan las Puma Negra 👟 ¿Podés darme más info?'},
-  {img:'tiendagravitt/zapaspumarojas.jpeg',        name:'Puma Rojas',            cat:'zapas',    q:'Hola GRAVITT! Me interesan las Puma Rojas 👟 ¿Podés darme más info?'},
-  {img:'tiendagravitt/zapasvans.jpeg',             name:'Vans',                  cat:'zapas',    q:'Hola GRAVITT! Me interesan las Vans 👟 ¿Podés darme más info?'},
-];
 
 /* Productos — cada uno con imagen real */
 const PRODUCTS = [
@@ -515,50 +449,6 @@ if(C.whatsapp){
   a.target='_blank'; a.rel='noopener';
   a.innerHTML=`<span class="c-icon">💬</span><div><div class="lbl">WhatsApp</div><small>Escribinos directo</small></div>`;
   g.appendChild(a);
-}
-
-// Tienda / Shop grid
-const shopGrid = $('#shopGrid');
-const WA_SVG = `<svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>`;
-const CAT_LABELS = {tech:'Tech Apple',remera:'Remeras',pantalon:'Pantalones',zapas:'Zapatillas'};
-
-function renderShop(filter){
-  if(!shopGrid || !C.whatsapp) return;
-  shopGrid.classList.remove('in');
-  shopGrid.innerHTML = '';
-  const items = filter === 'all' ? SHOP_PRODUCTS : SHOP_PRODUCTS.filter(p => p.cat === filter);
-  items.forEach((p,i) => {
-    const card = document.createElement('a');
-    card.className = 'shop-card';
-    card.href = `https://wa.me/${C.whatsapp}?text=${encodeURIComponent(p.q)}`;
-    card.target = '_blank';
-    card.rel = 'noopener';
-    card.style.transitionDelay = (i * 40) + 'ms';
-    card.innerHTML = `
-      <div class="shop-card-img"><img src="assets/gravitt/${p.img}" alt="${p.name}" loading="lazy"></div>
-      <div class="shop-card-body">
-        <div class="shop-card-tag">${CAT_LABELS[p.cat] || p.cat}</div>
-        <div class="shop-card-name">${p.name}</div>
-        <span class="shop-cta">${WA_SVG} Consultar por WhatsApp</span>
-      </div>`;
-    shopGrid.appendChild(card);
-  });
-  requestAnimationFrame(() => shopGrid.classList.add('in'));
-}
-renderShop('all');
-
-document.querySelectorAll('#shopTabs .tab').forEach(t => {
-  t.addEventListener('click', () => {
-    document.querySelectorAll('#shopTabs .tab').forEach(x => x.classList.remove('active'));
-    t.classList.add('active');
-    setTimeout(() => renderShop(t.dataset.sfilter), 60);
-  });
-});
-
-// Floating WhatsApp button
-const waFloat = $('#waFloat');
-if(waFloat && C.whatsapp){
-  waFloat.href = `https://wa.me/${C.whatsapp}?text=${encodeURIComponent(C.waMsg)}`;
 }
 
 // Marquees
